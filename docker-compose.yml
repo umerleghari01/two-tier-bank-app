@@ -21,7 +21,7 @@ services:
       timeout: 5s
 
   bank-app:
-    image: umerleghari01/bank-app
+    image: umerleghari01/bank-app:v1
     container_name: bank-app
     environment:
       SPRING_DATASOURCE_USERNAME: admin
