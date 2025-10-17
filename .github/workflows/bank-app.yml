@@ -1,0 +1,11 @@
+name: My Workflow
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout the Code
+        uses: actions/checkout@v3
